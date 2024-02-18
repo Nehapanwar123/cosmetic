@@ -1,0 +1,336 @@
+/* menu section*/
+*
+{
+    scroll-behavior: smooth;
+}
+.main
+{
+background-color: black;
+ height: 80px;
+ width: 100%;
+ margin-left: -8px;
+ position: fixed;
+ margin-top: -10px;
+ z-index: 1;
+ 
+}
+.one ul li a
+{
+    color: white;
+    margin-top: 30px;
+    text-align: right;
+}
+
+.one
+{
+    margin-left: 40px;
+    text-align: right;
+   
+}   
+
+
+.one li
+{
+    display: inline-block;
+    padding-left: 35px;
+    font-size: 20px;
+    margin-top: 10px;
+     color:white;
+     margin-top: 15px;
+    
+    
+    
+}
+
+.one li a:hover
+{
+    color:crimson;
+}
+.one
+{
+    margin-right: 70px; 
+}
+.one li a
+{
+		text-decoration:none;
+		font-size:20px;
+		padding-right:25px;
+		color:white;
+		display: block;
+        
+}
+/* banner section*/
+.banner img
+{
+    width: 1349px;
+    height: 500px;
+    margin-left: -8px;
+
+    
+
+    
+
+}
+.banner h1
+{
+    color: white;
+    margin-top: -400px;
+    margin-left: 280px;
+    font-size: 85px;
+    font-family:Cooper Black;
+    font-weight: 600;
+    overflow:hidden;	
+    white-space:nowrap;
+    animation:text 5s steps(16) infinite alternate; 
+
+}
+@keyframes text{
+0%{
+    width: 0ch;
+}
+50%{
+    width: 19ch;
+}
+     
+}
+.banner p
+{
+    color:white;
+    font-size: 20px;
+    padding: 130px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -160px;
+
+}
+ marquee
+{
+    background-color:crimson;
+    color:white;
+    border: none;
+    width: 170px;
+    height: 50px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 9PX;
+    margin-left: 600px;
+    margin-top: -400px;
+    padding-top: 20px;
+    
+    
+}
+
+/*about us section*/
+
+    
+.about
+{
+     background-color: aliceblue;
+    width: 1365px;
+    height: 3700px;
+    margin-top: -130px;
+    margin-left: -24px;
+    
+}
+.about h1
+{
+    font-size: 60px;
+    text-align: left;
+    margin-left: 60px;
+    margin-top: 170px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 6px 10px;
+    overflow:hidden;	
+    white-space:nowrap;
+    animation:text 5s steps(16) infinite alternate; 
+
+}
+@keyframes text{
+0%{
+    width: 0ch;
+}
+50%{
+    width: 19ch;
+}
+   
+}
+.para
+{
+    color: white;
+    padding: 50px;
+    width: 400px;
+}
+.menu h1
+{
+font-size: 52px;
+text-align: left;
+text-align: center;
+margin-top: 90px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+/* menu section*/
+.menu
+{
+    margin-top: -1150px;
+}
+.menu h1
+{
+    margin-top: 30px;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    text-shadow: 2px 6px 10px;
+    
+}
+
+.menu
+{
+    margin-left: 140px;
+}
+.menu img
+{
+   height: 200px;
+   width: 300px;
+   padding: 20px;
+   
+}
+.expert h1
+{
+    
+    font-size: 60px;
+    text-align: left;
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 90px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 6px 10px;
+    position: relative;
+                                        
+   
+}
+
+.chef
+{
+    width: 600px;
+    height: 40px;
+}
+/*reviews section*/
+.revi
+{
+    width: 1100px;
+   height: 500px;
+   margin: 100px 100px;
+   padding: 20px;
+
+    background-image:url('image/wallpaperflare.com_wallpaper\ \(7\).jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.revi h1
+{
+    font-size: 60px;
+    text-align: left;
+    text-align: center;
+    margin-top: 90px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 6px 10px;
+
+}
+.top
+{
+    margin-top: 30px;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    text-shadow: 2px 6px 10px;
+}
+.revi p
+{
+    padding: 20px;
+    font-size: 16px;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.revi h2
+{
+    color: rgb(187, 0, 37); 
+    font-weight: 600;
+     font-family:Algerian;
+     text-align: center;
+}
+
+.contect
+{
+        
+        width:350px ;
+        height: 200px;
+        
+        margin-top: 50px    ;
+}
+.contect h1
+{
+    font-size: 60px;
+    
+    text-align: center;
+    margin-top:60%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 6px 10px;
+}
+.butt
+
+{
+  width: 120px;
+  height: 30px;
+  background-color: crimson;
+  color: wheat;
+  border: none;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    margin: -150px;
+    float: left;
+    perspective: 500px;
+  }
+  
+  .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  }
+  
+  .card:hover .content {
+    transform: rotateY( 180deg ) ;
+    transition: transform 0.5s;
+  }
+  
+  .front,.back 
+  {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: white;
+    line-height: 300px;
+    color: #03446A;
+    text-align: center;
+    font-size: 60px;
+    border-radius: 5px;
+    backface-visibility: hidden;
+  }
+  
+  .back {
+    background: #03446A;
+    color: white;
+    transform: rotateY( 180deg );
+  }
+  
