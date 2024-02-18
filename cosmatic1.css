@@ -1,0 +1,1407 @@
+.main
+{
+	margin-top: -800px;
+    
+
+}
+*{
+    margin : 0;
+    padding: 0;
+    
+}
+i
+{
+    cursor: pointer;
+}
+i:hover
+
+
+
+ul{
+    list-style: none;
+}
+
+
+.head
+{
+    background-color:black;
+    height: 80px;
+    width: 100%;    
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    /* overflow: hidden; */
+    
+}
+.input
+{
+    width: 300px;
+    height: 30px;
+    border-radius: 12px;
+    border: 2px solid white;
+    margin-top: -100px;
+}
+.form a
+{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.form a:hover
+{
+    color: crimson;
+}
+::placeholder
+{
+    color: black;
+    font-weight: bold;
+     
+
+}
+.head img
+{
+ height: 100px; 
+ margin-top: -10px;
+}
+.input
+{
+    margin-top: -100px;
+}
+.head ul{
+    display: flex;
+    align-items: center;
+}
+
+.nav ul
+{
+    padding-top: -20px;
+
+}
+.nav
+{
+    background-color: rgb(45, 45, 45);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    /* position: absolute; */
+    position: fixed;
+    top: 76px;
+    z-index: 1; 
+    text-shadow: 4px 3px 15px black;
+    
+	
+
+  
+
+overflow: hidden;
+    
+    
+}
+.nav li
+{
+    display: inline-block;
+    margin-top: 15px;  
+      
+}
+
+.nav li a
+{
+    text-decoration: none;
+    color: white;
+    margin-left: 60px;
+    font-size: 16px;  
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.nav li a:hover
+{
+    color:rgb(255, 38, 186);
+    border-bottom: 3px solid rgb(255, 255, 255);
+    cursor: pointer;
+    padding-top: 5px;
+    height: 20px;
+    
+}
+sup
+{
+    color: rgb(255, 13, 61);
+}
+
+/*banner section*/
+.img  img
+{
+    width: 100%;
+    height: 525px;   
+    margin-top: 385px;
+    
+}
+.img
+{
+    margin-top: -390px;
+}
+
+/* .img 
+	{
+		
+		
+		transform: -50% -50%;
+		animation:slider 10S infinite linear;
+		width:100%;
+		height:100px;
+		position: absolute;
+        top: 0;
+        
+	}
+
+    @keyframes slider
+    {
+        0%
+        {
+            background-image: url(".\cosmatic img\image.webp");
+        }
+        25%
+        {
+             background-image: url(".\cosmatic img\image.webp");
+        }
+        50%
+        { 
+            background-image: url(".\cosmatic img\image.gif");
+        }
+        75%
+        {
+            background-image: url(".\cosmatic img\image (1).gif");
+        }
+    }
+/*Best sallers section*/
+.best
+{
+    background-color: rgb(236, 213, 224);
+    width: 1348px;
+    height: 750px;
+    margin-top: -20px;
+    
+    display:flex;  
+    
+}
+
+.best h1
+{
+    align-items: center;
+    color: rgb(0, 0, 0);   
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 70px;
+
+   
+   
+}
+.best h1:hover
+{
+    color: rgb(219, 12, 53);
+
+    cursor: pointer;
+    
+}
+button:hover
+{
+
+    cursor: pointer;
+}
+
+.one
+{
+    background-color: white;
+    height: 350px;
+    width: 20%;
+    /* margin-left: -80px; */
+    padding-top:  80px;
+    margin-top: 250px;
+    border-radius: 22px;  
+
+    margin-left: -190px;
+    box-shadow: 4px 3px 15px black;
+    
+}
+.one:hover
+{
+
+    background-color: plum;
+}
+
+
+.one img
+{
+    height: 200px;
+    width: 150px;
+    margin-top: -70px;
+    margin-left: 60px;
+}
+.two img
+{
+    height: 200px;
+    width: 150px;
+    margin-top: -70px;
+    margin-left: 60px;
+}
+.three img
+{
+    height: 200px;
+    width: 150px;
+    margin-top: -70px;
+    margin-left: 60px;
+}
+.four img
+{
+    height: 200px;
+    width: 150px;
+    margin-top: -70px;
+    margin-left: 60px;
+}
+.two
+{
+    background-color: white;
+    height: 350px;
+    width: 20%;
+    margin-left: 50px;
+    padding-top:  80px;
+    margin-top: 250px;
+
+    border-radius: 22px;
+    box-shadow: 4px 3px 15px black;
+ 
+}
+.two:hover
+{
+
+    background-color: plum;
+}
+
+.three
+{
+    background-color: white;
+    height: 350px;
+    width: 20%;
+    margin-left: 50px;
+    padding-top:  80px;
+    box-shadow: 4px 3px 15px black;
+    margin-top: 250px;
+    border-radius: 22px;
+}
+.three:hover
+{
+
+    background-color: plum;
+}
+.four
+{
+    background-color: white;
+    height: 350px;
+    width: 20%;
+    box-shadow: 4px 3px 15px black;
+    margin-left: 50px;
+    padding-top:  80px;
+    margin-top: 250px;
+    border-radius: 22px;
+}
+.four:hover
+{
+  
+    background-color: plum;
+}
+.one p
+{
+    margin-left: 40px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+    
+}
+.one h4
+{
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 70px;
+    margin-top: 10px;
+    font-size: 18px;
+
+}
+.one h3
+{
+    margin-left: 100px;
+    margin-top: -20px;
+    font-size: 20px;
+    
+}
+.one button
+{
+    background-color:crimson;
+    color: white;
+    border:none;
+    height: 45px;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-top: 30px;
+    font-family:sans-serif;
+
+}
+.one button:hover
+{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.two p
+{
+    margin-left: 40px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.two h4
+{
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 100px;
+    margin-top: 13px;
+    font-size: 18px;
+
+}
+.two h5
+{
+    margin-left: 90px;
+    margin-top: 10px;
+    font-size: 18px;
+    
+}
+.two button
+{
+    background-color:crimson;
+    color: white;
+    border:none;
+    height: 45px;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-family:sans-serif;
+}
+.two button:hover
+{
+    background-color:black;
+    color: white;
+}
+.three button
+{
+    background-color:crimson;
+    color: white;
+    border:none;
+    height: 45px;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-top: 30px;
+    font-family:sans-serif;
+}
+.three button:hover
+{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.two h3
+{
+    margin-left: 100px;
+    margin-top: -22px;
+}
+.three h3
+{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.three p
+{
+    margin-left: 40px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+.three h4
+{
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 100px;
+    margin-top: 13px;
+    font-size: 18px;
+
+}
+.four h5
+{
+    margin-left: 80px;
+    margin-top: 15px;
+    font-size: 18px;
+}
+.four button
+{
+    background-color:crimson;
+    color: white;
+    border:none;
+    height: 45px;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-top: 300px;
+    font-family:sans-serif;
+}
+.four button:hover
+{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.four p
+{
+    margin-left: 40px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+    
+}
+.four h4
+{
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 110px;
+    margin-top: 5px;
+    font-size: 18px;
+
+}
+.four h3
+{
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 20px;
+    
+}
+.four button
+{
+    background-color:crimson;
+    color: white;
+    border:none;
+    height: 45px;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-top: 30px;
+    font-family:sans-serif;
+}
+.four button:hover
+{
+    background-color: black;
+    color: white;
+}
+
+/* HOT DEALS*/
+.hot
+{
+    background-color: rgb(236, 213, 224);
+    height: 700px;
+    width:100%;
+    transition: 5s ease;
+
+    }
+    .hot img:hover
+    {
+         cursor: pointer;
+         
+         box-shadow: 3px 9px 15px black;
+    
+        
+    }
+.hot h1
+{
+    color: rgb(0, 0, 0);
+    /* margin-top: 50px; */
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 50px;
+    text-align: center;
+    
+    
+}
+.hot h1:hover
+{
+    color: crimson;
+
+    cursor: pointer;
+     
+}
+.hot a
+{
+    color: crimson;
+    text-decoration: none;
+    position: fixed;
+    top:550px;
+    left:1280px;
+    z-index: 1;
+}
+
+
+.gif
+{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    padding: 40px;
+     margin-left: 10px; 
+    /* padding-left: 20px; */
+    margin-top: 70px;
+}
+.img1
+{
+    padding-right: 30px;
+}
+.img2
+{
+    margin-left: 20px;
+}
+.img3
+{
+    margin-left: 40px;
+}
+/*Just   in section*/
+.just
+{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(236, 213, 224);
+    display: flex;
+    
+    
+
+}
+.just h1
+{
+    color: rgb(0, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin-left: 600px;
+    margin-top: 50px;
+    
+}
+.div1
+{
+   background-color: white;
+   height: 400px;
+    width: 20%;
+   margin-left:-655px;
+   margin-top: 250px;
+   border-radius: 20px;
+}
+.div1:hover
+{
+    background-color: plum;
+}
+.div2
+{
+   background-color: white;
+   height: 400px;
+   width: 20%;
+   margin-left: 50px;
+   border-radius: 20px;
+   margin-top: 250px;
+}
+.div2:hover
+{
+    background-color: plum;
+}
+.div3
+{
+   background-color: white;
+   height: 400px;
+   width: 250px;
+   margin-left: 50px;
+   border-radius: 20px;
+   margin-top: 250px;
+}
+.div3:hover
+{
+    background-color: plum;
+}
+.div4
+{
+   background-color: white;
+   height: 400px;
+   width: 250px;
+   margin-left: 50px;
+   border-radius: 20px;
+   margin-top: 250px;
+}
+.div4:hover
+{
+    background-color: plum;
+}
+.div1 img
+{
+    height: 200px;
+    width: 150px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.div2 img
+{    height: 200px;
+    width: 150px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.div3 img
+{
+    height: 200px;
+    width: 150px;
+        margin-left: 60px;
+        margin-top: 20px;
+
+}
+.div4 img
+{    height: 200px;
+    width: 150px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.div1 button
+{
+    background-color:crimson;
+    color: rgb(255, 255, 255);
+    border:none;
+    height: 45px;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-family:sans-serif;
+}
+.div1 button:hover
+{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.div2 button
+{
+    background-color: crimson;
+    color: rgb(255, 255, 255);
+    border:none;
+    height: 45px;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-family:sans-serif;
+    
+}
+.div2 button:hover
+{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.div3 button
+{
+    background-color: crimson;
+    color: rgb(255, 255, 255);
+    border:none;
+    height: 45px;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-top: 25px;
+    font-family:sans-serif;
+}
+.div4 button:hover
+{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.div4 button
+{
+    background-color: crimson;
+    color: white;
+    border:none;
+    height: 45px;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-top: 25px;
+    font-family:sans-serif;
+}
+.div3 button:hover
+{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+/*Maximeyes drama section*/
+.maxi
+{
+    background-color: rgb(236, 213, 224);
+    height: 650px;
+    position: absolute;
+    width: 100%;
+  
+    
+}
+.maxi h1
+{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 20px;
+    margin-top: 30px;
+  
+}
+
+.maxi iframe
+{
+    margin-top: 90px;
+    margin-left: 230px;
+}
+/*Top Picks section*/
+.top
+{
+    background-color: rgb(236, 213, 224);
+    height: 600px;
+    width: 100%;
+    padding-top: -50px;
+    
+}
+.top h1
+{
+    font-size: 40px;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.top img
+{
+    height: 300px;
+    width: 400px;
+    margin-top: 90px;
+    padding-left: 20px;
+    margin-left: 15px;
+  
+}
+/*Buy Now pay later*/
+.buy
+{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(236, 213, 224);
+    display: flex;
+    
+
+}
+.buy h1
+{
+    color: rgb(3, 3, 3);
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 550px;
+  
+    height: 182px;
+    margin-top: 80px;
+}
+.buy1
+{
+    background-color: white;
+    height: 400px;
+    width: 250px;
+    margin-left: -860px;
+    border-radius: 20px;
+    margin-top: 250px;
+}
+.buy1:hover
+{
+    background-color: plum;
+}
+.buy2
+{
+    background-color: white;
+    height: 400px;
+    width: 250px;
+    margin-left: 80px;
+    border-radius: 20px;
+    margin-top: 250px;
+}
+.buy2:hover
+{
+    background-color: plum;
+}
+.buy3
+{
+    background-color: white;
+    height: 400px;
+    width: 250px;
+    margin-left: 80px;
+    border-radius: 20px;
+    margin-top: 250px;
+}
+.div3:hover
+{
+    background-color: plum;
+}
+.buy4
+{
+    background-color: white;
+    height: 400px;
+    width: 250px;
+    margin-left: 80px;
+    border-radius: 20px;
+    margin-top: 250px;
+}
+.div4:hover
+{
+    background-color: plum;
+}
+.buy img
+{
+    height: 200px;
+    width: 150px;
+    
+}
+
+.buy1 img
+{
+    margin-left: 50px;
+     margin-top: 20px;
+     
+}
+
+.buy2 img
+{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.buy3 img
+{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.buy4 img
+{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.buy1 button
+{
+    background-color:crimson;
+    color: white;
+    border:none;
+    height: 45px;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-top: 15px;
+    font-family:sans-serif;
+}
+.buy1 button:hover
+{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.buy2 button
+{
+    background-color:crimson;
+    color: white;
+    border:none;
+    height: 45px;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-top: 15px;
+    font-family:sans-serif;
+}
+.buy2 button:hover
+{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.buy3 button
+{
+    background-color: crimson;
+    color: white;
+    border:none;
+    height: 45px;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-top: 15px;
+    font-family:sans-serif;
+}
+.buy3 button:hover
+{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.buy4 button
+{
+    background-color: crimson;
+    color: white;
+    border:none;
+    height: 45px;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-top: 15px;
+    font-family:sans-serif;
+}
+.buy4:hover
+{
+    background-color: plum;
+}
+.buy4 button:hover
+{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.buy3:hover
+{
+    background-color: plum;
+}
+/*Gifting section*/
+
+.gift
+{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(236, 213, 224);
+    display: flex; 
+    margin-top: 800px;
+
+    
+
+    
+    
+
+}
+.gift h1
+{
+    color: rgb(7, 7, 7);
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 550px;
+    margin-top: 60px;
+}
+.gift1
+{
+    background-color: white;
+    height: 400px;
+    width: 250px;
+    margin-left: -640px;
+    border-radius: 20px;
+    margin-top: 250px;
+}
+.gift2
+{
+    background-color: white;
+    height: 400px;
+    width: 250px;
+    margin-left: 80px;
+    border-radius: 20px;
+    margin-top: 250px;
+}
+.gift3
+{
+    background-color: white;
+    height: 400px;
+    width: 250px;
+    margin-left: 80px;
+    border-radius: 20px;
+    margin-top: 250px;
+}
+.gift4
+{
+    background-color: white;
+    height: 400px;
+    width: 250px;
+    margin-left: 80px;
+    border-radius: 20px;
+    margin-top: 250px;
+}
+.gif1:hover
+{
+    background-color: plum;
+}
+.gift2:hover
+{
+    background-color: plum;
+}
+.gift3:hover
+{
+    background-color: plum;
+}
+.gift4:hover
+{
+    background-color: plum;
+}
+.gift1:hover
+{
+    background-color: plum;
+}
+.gift img
+{
+    height: 200px;
+    width: 150px;
+    
+}
+.gift1 img
+{
+    margin-left: 50px;
+     margin-top: 20px;
+}
+.gift2 img
+{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.gift3 img
+{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.gift4 img
+{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.gift1 button
+{
+    background-color: crimson;
+    color: white;
+    border:none;
+    height: 45px;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-top: 15px;
+    font-family:sans-serif;
+}
+
+.gift1 button:hover
+{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.gift2 button
+{
+    background-color: crimson;
+    color: white;
+    border:none;
+    height: 45px;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-top: 15px;
+    font-family:sans-serif;
+}
+.gift2 button:hover
+{
+    background-color: crimson;
+    color: white;
+}
+.gift3 button
+{
+    background-color: crimson;
+    color: white;
+    border:none;
+    height: 45px;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-top: 15px;
+    font-family:sans-serif;
+}
+.gift3 button:hover
+{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.gift4 button
+{
+    background-color: crimson;
+    color: white;
+    border:none;
+    height: 45px;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-top: 15px;
+    font-family:sans-serif;
+}
+.gift4 button:hover
+{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.refer
+{
+    height: 800px;
+    width: 1389px;
+    background-color: rgb(236, 213, 224);
+    margin-top: -800px;
+    margin-left: -40px;
+    position: absolute;
+   
+    
+    
+}
+.refer h1
+{
+    
+        margin-left: -30px;
+        color: black;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.refer h1:hover
+{
+    color: crimson;
+}
+.refer img
+{
+    height: 350px;
+    width: 90%;
+    margin-top: 100px;
+    margin-left: 90px;
+  
+    border-radius: 20px;
+}
+.slider
+	{
+		
+		background-image:url('H:\Assigements\NEHA,S TEMPLATE\cosmatic img\sss.webp') ;
+		background-size: 100% 100%;
+		transform:  -50% -50%;
+		animation:slider 9S infinite linear;
+		width:50%;
+		height:400px;
+		
+        margin-top: 500px;
+        border: grey;
+	}
+
+	@keyframes slider{
+				0%{background-image:url('H:\Assigements\NEHA,S TEMPLATE\cosmatic img\sss.webp') ;}
+				25%{background-image:url('H:\Assigements\NEHA,S TEMPLATE\cosmatic img\sss2.webp') ;}
+				75%{background-image:url('H:\Assigements\NEHA,S TEMPLATE\cosmatic img\sss4.gif') ;}
+				100%{background-image:url('H:\Assigements\NEHA,S TEMPLATE\cosmatic img\sss3.gif') ;}
+			
+	}
+
+.new h1
+{
+        margin-left: -30px;
+        color: black;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: -60px;
+}
+.new h1:hover
+{
+    color: crimson;
+}
+
+.new
+{
+    height: 800px;
+    width: 100%;
+    background-color: rgb(236, 213, 224);
+    margin-top: 1300px;
+    margin-left: -1295px;
+    
+    
+}
+.new img 
+{
+    width: 1200px;
+    height: 400px;
+    margin-left: 80px;
+    margin-top: -500px;
+    border-radius: 25px;
+}
+.this
+{
+    background-color: rgb(236, 213, 224);
+    width: 1500px;
+    height: 600px;
+    margin-top: 700px;
+    margin-left: -1500px;
+}
+.this h1
+{
+    font-size: 40px;
+    color:black;
+    margin-left: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -50px;
+}
+.this h1:hover
+{
+    color: crimson;
+}
+.this img
+{
+    margin-left: 150px;
+    height: 280px;
+    width: 480px;
+    margin-top: 100px;
+    border-radius: 40px;
+}
+.ex
+{
+    background-color: rgb(236, 213, 224);
+    width: 1500px;
+    height: 600px;
+    margin-top: 1380px;
+    margin-left: -1500px;
+    
+}
+.ex h1
+{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    margin-left: 200px;
+    margin-top: -60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ex h1:hover
+{
+    color: crimson;
+}
+
+.ex video
+{
+    margin-left: 250px;
+    height: 400px;
+    margin-top: 50px;
+    
+}
+.con
+{
+    background-color:   rgb(255, 255, 255);
+    height: 560px;
+    width: 1800px;
+    margin-top: 2080px;
+    margin-left: -1800px;
+    
+
+}
+.con h1
+{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    margin-left: 400px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.con h1:hover
+{
+    color: crimson;
+}
+.con h2
+{
+    color: rgb(0, 0, 0);
+    margin-left: 830px;
+    margin-top: 20px;
+    font-size: 20px;
+    
+}
+
+.con input
+{
+    width: 600px;
+    height: 50px;
+    border-radius: 12px;
+    border: 1px solid rgb(4, 4, 4);
+    margin-left: 750px;
+    margin-top: 80px;
+    position: absolute;
+}
+::placeholder
+{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.con button
+{
+    background-color: black;
+    color: white;
+    height: 52px;
+    margin-left: 1360px;
+    width: 150px;
+    margin-top: 86px;
+    font-size: 18px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.con button:hover
+{
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.con img
+{
+    height: 100px;
+    margin-left: 1050px;
+    margin-top: 100px;
+    border: 20px solid black;
+    border-radius: 130px;
+    width: 100px;
+    
+}
+.last
+{
+    background-color: rgb(0, 0, 0) ;
+    height: 550PX;
+    width: 1390px;  
+    margin-top: 2640px;
+   
+}
+.last img
+{
+    height: 50px;
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 30px;
+    padding-left: 320px;
+
+}
+.last img:hover
+{
+    cursor: pointer;
+ 
+}
+.last h1
+{
+    color: white;
+    margin-left: 5px;
+    margin-top: 30px;
+    font-size: 35px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   letter-spacing: 10px;
+    
+}
+.last i
+{
+   margin-left: 50px;
+   padding-top: 90px;
+   padding-left: 80px;
+   color: white;
+   size: 30px;
+   margin-left: 80px;
+   font-size: 30px;
+}
+.last i:hover
+{
+    color:rgb(255, 0, 76);
+}
+.last p:hover
+{
+   color: crimson;
+}
